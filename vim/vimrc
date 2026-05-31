@@ -1,0 +1,50 @@
+""" Appearance
+set number
+set cursorline
+set showtabline=2
+set ruler
+set showcmd
+set noshowmode
+
+""" Window Split
+set splitbelow
+set splitright
+
+""" Indentation
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+""" Scroll
+set scrolloff=3
+
+""" Key Mapping
+nnoremap <CR> o
+nnoremap QQ :q!<CR>
+
+""" Syntax
+syntax on
+colorscheme desert
+
+""" Register
+set clipboard=unnamed
+
+""" Search
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+
+""" Swap File
+set noswapfile
+
+""" Auto Command
+autocmd BufEnter * setlocal cursorline
+autocmd BufLeave * setlocal nocursorline
+autocmd WinLeave * setlocal nocursorline
+autocmd WinEnter * setlocal cursorline
+
+""" File Type
+filetype on
+filetype indent on
+filetype plugin on
