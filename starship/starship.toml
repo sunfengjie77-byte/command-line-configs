@@ -18,7 +18,7 @@ truncate_to_repo=false
 
 [git_branch]
 style = 'bold #BA55D3'
-format = '[$symbol$truebranch(:$remote_branch)]($style) '
+format = '[$symbol$branch(:$remote_branch)]($style) '
 
 [os]
 disabled = false
